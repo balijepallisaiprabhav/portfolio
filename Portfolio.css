@@ -381,16 +381,12 @@ button {
 }
 
 .profile-frame {
-    position: relative;
-    width: 350px;
-    height: 400px;
-    border-radius: 25px;
-    background: transparent;
-    border: none;
+    width: 320px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 0 auto;
     padding: 0;
-    overflow: visible;
-    box-shadow: none;
-    z-index: 1;
+    overflow: hidden;
 
 }
 
@@ -418,6 +414,15 @@ button {
     border: none;
     border-radius: 0;
     box-shadow: none;
+}
+
+.profile-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    border-radius: 20px;
 }
 
 .floating-card {
